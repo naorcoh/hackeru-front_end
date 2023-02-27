@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="mailto:ee@ee.com" method="post">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" required autofocus /><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required /><br />
+
+      <label for="country">Select your country</label><br />
+
+      <select name="country" id="country">
+        <option value="israel">israel</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+
+      <label for="message">message </label><br />
+      <textarea name="message" id="message" cols="30" rows="10"></textarea
+      ><br />
+
+      <button
+        type="submit
+        "
+      >
+        submit
+      </button>
+      <button type="reset">reset</button>
+    </form>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Age</th>
+          <th rowspan="2">City</th>
+        </tr>
+        <tr>
+          <th>birth</th>
+          <th>died</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lorem, ipsum lecture.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
